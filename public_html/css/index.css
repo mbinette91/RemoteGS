@@ -1,0 +1,183 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+@font-face {
+    font-family: "Orbitron Light";
+    src: url('../res/Orbitron Light.ttf');
+    font-weight:400;
+}
+
+body{
+	background:url('../images/background.png') top center repeat;
+	font-family:Helvetica, Arial;
+	font-weight:400;
+}
+
+h3{
+	font-family:"Orbitron Light", Helvetica, Arial;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+	font-weight:900;
+	border:none;
+}
+
+p{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#content-container{
+	position:relative;
+}
+
+#header-container{
+	background:url('../images/header.png') top center repeat-x;
+	height:79px;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width:100%;
+	position:fixed;
+	top:0;
+}
+
+#header-inner{
+	max-width:960px;
+	min-width:800px;
+	margin:auto;
+}
+
+#logo{
+	background-image:url('../images/grooveshark-logo.png');
+	background-position:0px 0px;
+	background-repeat:no-repeat;
+	height:80px;
+	width:80px;
+	margin-top:10px;
+	margin-left:5%;
+	float:left;
+}
+
+#header-text{
+	width:500px;
+	font-size:2em;
+	height:80px;
+	margin-left:87px;
+	padding-top:10px;
+	letter-spacing:2px;
+	font-family:"Orbitron Light", Helvetica, Arial;
+}
+
+#remote-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f2f2f2;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f2f2f2;
+	box-shadow:inset 0px 1px 0px 0px #f2f2f2;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fdec36), color-stop(1, #faca2c) );
+	background:-moz-linear-gradient( center top, #fdec36 5%, #faca2c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdec36', endColorstr='#faca2c');
+	background-color:#fdec36;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #d1d1d1;
+	display:inline-block;
+	color:#171717;
+	font-family:arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:6px 35px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #fffaff;
+	float:right;
+	margin-top:25px;
+	margin-right:5%;
+}
+
+#remote-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #faca2c), color-stop(1, #fdec36) );
+	background:-moz-linear-gradient( center top, #faca2c 5%, #fdec36 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#faca2c', endColorstr='#fdec36');
+	background-color:#faca2c;
+}
+
+#remote-button:active {
+	position:relative;
+	top:1px;
+}
+
+#present-container{
+	margin-top:3px;
+	height:400px;
+	-webkit-box-shadow: 0 4px 4px -2px #000000;
+    -moz-box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: -2px 4px 4px -2px #000000;
+    background-color:#e66e1d;
+    border-bottom:1px solid white;
+}
+
+#present-inner{
+	background:url('../images/top.png') top center no-repeat;
+	width:960px;
+	margin:auto;
+	color:white;
+}
+
+#present-text{
+	padding-top:12%;
+	width:500px;
+	font-size:2.2em;
+	letter-spacing:3px;
+	margin-left:5%;
+	font-family:"Orbitron Light", Helvetica, Arial;
+}
+
+#present-extension{
+	font-size:1.3em;
+	margin-left:5%;
+	margin-top:2%;
+	font-family:"Orbitron Light", Helvetica, Arial;
+}
+
+#present-extension-logos{
+	margin-top:10px;
+}
+
+.extension img{
+	margin-right:15px;
+	border:none;
+}
+
+#present-phone{
+	background:url('../images/phone.png') top center no-repeat;
+	width:180px;
+	height:340px;
+	margin-left:65%;
+	margin-right:15%;
+	margin-top:-200px;
+	border-radius:20px;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#body-inner{
+	margin:auto;
+	margin-top:30px;
+	width:960px;
+	font-size: 1.2em;
+	color:white;
+}
+
+#body-text{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#first-paragraph-photo{
+	width:550px;
+}

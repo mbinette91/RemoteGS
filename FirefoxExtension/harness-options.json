@@ -1,0 +1,47 @@
+{
+ "enable_e10s": false, 
+ "is-sdk-bundled": true, 
+ "jetpackID": "jid0-BZNb47b16rO2Pwzyr6tsfGzZBus@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "remotegs/main", 
+ "manifest": {
+  "remotegs/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "9a2ea371cef0175cc632519bc66f4849ab6385d6d27d81c617e684a58998dd76", 
+   "moduleName": "main", 
+   "packageName": "remotegs", 
+   "requirements": {
+    "sdk/page-mod": "sdk/page-mod", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "remotegs": {
+   "author": "n1kk0r", 
+   "main": "main", 
+   "name": "remotegs", 
+   "version": "initial.rev153"
+  }
+ }, 
+ "name": "remotegs", 
+ "sdkVersion": "1.14", 
+ "staticArgs": {}, 
+ "verbose": false
+}

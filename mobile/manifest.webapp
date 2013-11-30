@@ -1,0 +1,13 @@
+{
+  "name": "Remote.gs",
+  "description": "Grooveshark remote app",
+  "launch_path": "/",
+  "icons": {
+    "60": "/images/grooveshark-logo.png",
+	"128": "/images/grooveshark_logo_128.png"
+  },
+  "developer": {
+    "name": "Mathieu Binette, Émile Filteau-Tessier, Marc-Antoine Hinse, Jérôme Gingras"
+  },
+  "default_locale": "en"
+}

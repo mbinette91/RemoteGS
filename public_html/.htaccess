@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^remote.gs
+RewriteRule (.*) http://www.remote.gs/$1 [R=301,L]

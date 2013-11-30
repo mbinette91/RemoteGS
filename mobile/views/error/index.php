@@ -1,0 +1,1 @@
+<div class="prototype" type="javascript" cmd="init" js-class="ErrorPage" body-class="<?PHP echo $VIEW->BODY_CLASS; ?>" title="<?PHP echo $VIEW->TITLE; ?>"></div>
