@@ -64,7 +64,7 @@
 		};
 
 		Ui.prototype.render = function(evt) {
-			this.$el.html('<style>#header-left{width:60% !important;}#header-right{width:40% !important;}</style><a id="remote-settings-button" style="position: relative;display: block;height: 19px;margin-right: 0px;margin-top: 15px;padding: 0 5px;background: none;outline: none;"><span class="title" style="display: inline-block;height: 19px;padding: 0 0 0 0px;margin-right: 2px;float: left;font-size: 12px;font-weight: bold;color: #BBB;text-shadow: 0 1px 0px rgba(0, 0, 0, 0.7);line-height: 19px;">Connecting...</span><span class="caret" style="top: 9px;display: inline-block;float: left;border-top-color: #BBB" /></a>');
+			this.$el.html('<style>#header-left{width:20% !important;}#header-right{width:45% !important;}</style><a id="remote-settings-button" style="position: relative;display: block;height: 19px;margin-right: 0px;margin-top: 15px;padding: 0 5px;background: none;outline: none;"><span class="title" style="display: inline-block;height: 19px;padding: 0 0 0 0px;margin-right: 2px;float: left;font-size: 12px;font-weight: bold;color: #BBB;text-shadow: 0 1px 0px rgba(0, 0, 0, 0.7);line-height: 19px;">Connecting...</span><span class="caret" style="top: 9px;display: inline-block;float: left;border-top-color: #BBB" /></a>');
 			this.updateText();
 			return this;
 		};
