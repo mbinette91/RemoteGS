@@ -3,12 +3,6 @@
 	margin:0;
 }
 
-@font-face {
-    font-family: "Orbitron Light";
-    src: url('../res/Orbitron Light.ttf');
-    font-weight:400;
-}
-
 body{
 	background:url('../images/background.png') top center repeat;
 	font-family:Helvetica, Arial;
@@ -16,7 +10,7 @@ body{
 }
 
 h3{
-	font-family:"Orbitron Light", Helvetica, Arial;
+	font-family:Helvetica, Arial;
 }
 
 a{
